@@ -74,12 +74,30 @@ Here we can find subroutines that manages the possible game states.
 
 And then, these are the differents states or screens which game is able to run. In each one of them we would find both init, update and plot subroutines.
 
-- [X] Intro 
-- [X] Menu
-- [X] Play 
-- [X] After goal
-- [X] Game Over
-- [X] Attract mode
+-  Intro
+-  Menu
+-  Play
+-  After goal
+-  Game Over
+-  Attract mode
+
+
+### MAP.X68 FILE
+
+Manages all the things related to the map. Here we find subroutines which inits, updates and plots the map.
+
+- [X] Grass color, sky color, lines court
+- [X] Scoreboard
+- [X] Warning lines
+- [X] Draws the tennis net
+
+
+
+
+
+
+
+
 
 
 
