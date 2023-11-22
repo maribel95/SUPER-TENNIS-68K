@@ -14,8 +14,6 @@ In the main file we would find the following includes:
 
 ```assembler
 
-; --- CODE INCLUDES -----------------------------------------------------------
-
             INCLUDE "SYSCONST.X68"          ; SYSTEM CONSTANTS
             INCLUDE "SYSTEM.X68"            ; SYSTEM CODE
             INCLUDE "CONST.X68"             ; GAME CONSTANTS
@@ -31,3 +29,5 @@ In the main file we would find the following includes:
             INCLUDE "FILES.X68"             ; TXT
 
 ```
+
+
