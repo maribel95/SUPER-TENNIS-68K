@@ -117,6 +117,30 @@ In that files is managed the interactions of each players. Both are practically 
 
 ### COUNTDOWN.X68 FILE
 
+- [X] Manages countdown numbers
+- [X] Inits the ball
+
+### FILES.X68 FILE
+
+Manages input and output file operations. Basically read and write instructions.
+
+## Game images:
+
+
+
+
+
+
+
+![Captura de pantalla 2023-11-22 113925](https://github.com/maribel95/SUPER-TENNIS-68K/assets/61268027/8f0c97dd-3dd7-477e-bbb6-22eab8e58aca)
+![Captura de pantalla 2023-11-22 113833](https://github.com/maribel95/SUPER-TENNIS-68K/assets/61268027/507b1a09-cd41-42c9-853b-e46adf2794cf)
+![Captura de pantalla 2023-11-22 113804](https://github.com/maribel95/SUPER-TENNIS-68K/assets/61268027/5e6baf0d-1a00-4005-8da1-4bb5dcf94a2f)
+![Captura de pantalla 2023-11-22 113753](https://github.com/maribel95/SUPER-TENNIS-68K/assets/61268027/4b2640d6-1f3d-4eba-b24b-29856835cd1e)
+
+
+
+
+
 
 
 
