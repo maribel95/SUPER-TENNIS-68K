@@ -39,9 +39,9 @@ Next, we are going to explain a little how the game code has been built, in orde
 In this we find all the constant values of the game. In particular for the management of:
 
 - [X] Trap routines for system interruptions.
-- [X] Key codes
-- [X] Screen dimensions
-- [X] Dynamic memory constants
+- [X] Key codes.
+- [X] Screen dimensions.
+- [X] Dynamic memory constants.
 
 ### SYSTEM.X68 FILE
 
@@ -49,10 +49,10 @@ In this we find all the constant values of the game. In particular for the manag
 - [X] System initializes.
 - [X] Manages screen timer, increases the interrupt counter and updates double buffer.
 - [X] Trap service routine in charge of displaying current frame and clearing buffer for the next one.
-- [X] Initializes system variables
-- [X] Updates system variables
+- [X] Initializes system variables.
+- [X] Updates system variables.
 - [X] Dynamic memory management.
-- [X] Manage output pointers
+- [X] Manage output pointers.
 
 ### CONST.X68 FILE
 
@@ -67,44 +67,55 @@ In this we find all the constant values of the game. In particular for the manag
 
 Here we can find subroutines that manages the possible game states.
 
-- [X] State manager
-- [X] Perform init state and update state
-- [X] Performs state plot
-- [X] Empty subroutine for cases with nothing to do
+- [X] State manager.
+- [X] Perform init state and update state.
+- [X] Performs state plot.
+- [X] Empty subroutine for cases with nothing to do.
 
 And then, these are the differents states or screens which game is able to run. In each one of them we would find both init, update and plot subroutines.
 
--  Intro
--  Menu
--  Play
--  After goal
--  Game Over
--  Attract mode
+-  Intro.
+-  Menu.
+-  Play.
+-  After goal.
+-  Game Over.
+-  Attract mode.
 
 
 ### MAP.X68 FILE
 
 Manages all the things related to the map. Here we find subroutines which inits, updates and plots the map.
 
-- [X] Grass color, sky color, lines court
-- [X] Scoreboard
-- [X] Warning lines
-- [X] Draws the tennis net
+- [X] Grass color, sky color, lines court.
+- [X] Scoreboard.
+- [X] Warning lines.
+- [X] Draws the tennis net.
 
 
-### PLAYER1.X68 and PLAYER2.X68 FILES
+### PLAYER1.X68 AND PLAYER2.X68 FILES
 
 In that files is managed the interactions of each players. Both are practically the same, but in player2 file there are the extra code for the IA movement.
 
-- [X] Initializes player
-- [X] Updates player motion: gravity, checking ground, pressed keys
-- [X] Plots the player
+- [X] Initializes player.
+- [X] Updates player motion: gravity, checking ground, pressed keys.
+- [X] Plots the player.
 
+### BALL.X68 FILE
 
+- [X] Manages players and map limits colisions.
+- [X] Init, update and plot.
+- [X] Manages gravity, speed, friction.
 
+### NUMBERS.X68 FILE
 
+- [X] Draws each scoreboard number in the map.
 
+### AUDIO.X68 FILE 
 
+- [X] Load, plays and stop music.
+- [X] Management of file music rutes.
+
+### COUNTDOWN.X68 FILE
 
 
 
