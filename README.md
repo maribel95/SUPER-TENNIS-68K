@@ -74,10 +74,12 @@ Here we can find subroutines that manages the possible game states.
 
 And then, these are the differents states or screens which game is able to run. In each one of them we would find both init, update and plot subroutines.
 
-- [X] State manager
-- [X] Perform init state and update state
-- [X] Performs state plot
-- [X] Empty subroutine for cases with nothing to do
+- [X] Intro 
+- [X] Menu
+- [X] Play 
+- [X] After goal
+- [X] Game Over
+- [X] Attract mode
 
 
 
