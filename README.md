@@ -63,5 +63,27 @@ In this we find all the constant values of the game. In particular for the manag
 - [X] Score number related constants, like background color, ... 
 - [X] State related constants, for managing menu options.
 
+### STATES.X68 FILE
+
+Here we can find subroutines that manages the possible game states.
+
+- [X] State manager
+- [X] Perform init state and update state
+- [X] Performs state plot
+- [X] Empty subroutine for cases with nothing to do
+
+And then, these are the differents states or screens which game is able to run. In each one of them we would find both init, update and plot subroutines.
+
+- [X] State manager
+- [X] Perform init state and update state
+- [X] Performs state plot
+- [X] Empty subroutine for cases with nothing to do
+
+
+
+
+
+
+
 
 
