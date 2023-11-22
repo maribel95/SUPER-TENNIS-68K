@@ -94,6 +94,11 @@ Manages all the things related to the map. Here we find subroutines which inits,
 
 ### PLAYER1.X68 and PLAYER2.X68 FILES
 
+In that files is managed the interactions of each players. Both are practically the same, but in player2 file there are the extra code for the IA movement.
+
+- [X] Initializes player
+- [X] Updates player motion: gravity, checking ground, pressed keys
+- [X] Plots the player
 
 
 
